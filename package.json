@@ -1,9 +1,29 @@
+
 {
-    "name": "application-name"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.1"
+  "name": "nOSCascaine",
+  "description": "Node OSC Sniffer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/oierbravo/nOSCaine",
+
+  "repository": {
+    "type": "git", 
+    "url": "git@github.com:oierbravo/nOSCaine.git"
+  },
+  "author": {
+    "name": "Oier Bravo Urtasun", 
+    "url": "", 
+    "email": "oierbravo@gmail.com"
+  },
+  "dependencies": {
+    "express": "2.5.1"
     , "jade": ">= 0.0.1"
-  }
+    ,"socket.io": ">=0.8.0"
+  },
+  "main": "noscaine",
+  "keywords": [
+    "realtime"
+    ,"socket.io"
+    ,"osc"
+    ,"sniffer"
+  ]
 }
