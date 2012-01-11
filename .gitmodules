@@ -1,0 +1,3 @@
+[submodule "node-osc"]
+	path = node-osc
+	url = git://github.com/automata/node-osc.git
