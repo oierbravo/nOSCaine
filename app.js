@@ -41,6 +41,7 @@ console.log("Express server listening on port %d in %s mode", app.address().port
 var osc = require('./node-osc/lib/osc');
 
 var oscServer = new osc.Server(9001, '0.0.0.0');
+console.log("OSC server listening on port %d", 9001);
 // bind callbacks.
 io.sockets.on('connection', function(socket) {
   socket.broadcast.emit('info', socket.sessionId + ' connected');

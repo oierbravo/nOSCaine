@@ -4,9 +4,22 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/bootstrap-overrides.css')
-    script(type='text/javascript', src='/javascripts/jquery-1.7.1.min.js')
+    script(type='text/javascript', src='/javascripts/vendor/jquery-1.7.1.min.js')
     script(type='text/javascript', src='/socket.io/socket.io.js')
+    
+    
+    script(type='text/javascript', src='/javascripts/vendor/underscore-min.js')
+    script(type='text/javascript', src='/javascripts/vendor/backbone-min.js')
+    
+    script(type='text/javascript', src='/javascripts/backbone/models/oscMessage.js')
+    script(type='text/javascript', src='/javascripts/backbone/collections/oscMessages.js')
+    
+    script(type='text/javascript', src='/javascripts/backbone/routers/AppRouter.js')
+    
+    script(type='text/javascript', src='/javascripts/backbone/views/OSCMessageView.js')
+    script(type='text/javascript', src='/javascripts/backbone/views/OSCMessagesListView.js')
+    
     script(type='text/javascript', src='/javascripts/client.js')
-      
+    
   body!= body
   
