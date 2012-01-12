@@ -1,0 +1,1 @@
+ var oscMessage = Backbone.Model.extend({});
