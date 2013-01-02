@@ -1,6 +1,6 @@
 
 {
-  "name": "nOSCascaine",
+  "name": "noscaine",
   "description": "Node OSC Sniffer",
   "version": "0.0.1",
   "homepage": "https://github.com/oierbravo/nOSCaine",
@@ -24,5 +24,7 @@
     "realtime"
     ,"osc"
     ,"sniffer"
+	,"commandline"
+	,"receiver"
   ]
 }
