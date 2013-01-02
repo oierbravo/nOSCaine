@@ -15,14 +15,13 @@
     "email": "oierbravo@gmail.com"
   },
   "dependencies": {
-    "express": "2.5.1"
-    , "jade": ">= 0.0.1"
-    ,"socket.io": ">=0.8.0"
+    "omgosc": "*",
+    "commander": "*"
+    
   },
-  "main": "noscaine",
+  "bin": { "noscaine": "./bin/noscaine" },
   "keywords": [
     "realtime"
-    ,"socket.io"
     ,"osc"
     ,"sniffer"
   ]
