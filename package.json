@@ -2,7 +2,7 @@
 {
   "name": "noscaine",
   "description": "Node OSC Sniffer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/oierbravo/nOSCaine",
 
   "repository": {
@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "omgosc": "*",
-    "commander": "*"
+    "commander": "*",
+	"eyes": "*"
     
   },
   "bin": { "noscaine": "./bin/noscaine" },

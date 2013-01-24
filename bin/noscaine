@@ -4,8 +4,10 @@
  * Module dependencies.
  */
 
-var program = require('commander');
-var osc = require('omgosc');
+var program = require('commander'),
+	osc = require('omgosc'),
+	inspect = require('eyes').inspector();
+
 
 program
   .version('0.0.1')
@@ -16,8 +18,8 @@ program
 
 var oscSniffer = new osc.UdpReceiver(program.port,program.host);
 oscSniffer.on('',gotMessage);
-console.log('OSC Sniffer started on %s:%d', program.host,program.port);
+inspect('OSC Sniffer started on ' + program.host + ':' + program.port);
 
 function gotMessage(message){
-	console.log(message);
+	inspect(message);
 }
