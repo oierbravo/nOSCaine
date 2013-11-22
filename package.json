@@ -2,7 +2,7 @@
 {
   "name": "noscaine",
   "description": "Node OSC Sniffer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/oierbravo/nOSCaine",
 
   "repository": {
